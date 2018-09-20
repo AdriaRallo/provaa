@@ -18,4 +18,11 @@ class RallitoController extends Controller
         ));
     }
     
+    
+    public function bootAction()
+    {
+        return $this->render('RallitoBundle:Default:boot.html.twig');
+    }
+    
+    
 }

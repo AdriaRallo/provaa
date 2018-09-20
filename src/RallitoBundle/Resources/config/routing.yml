@@ -13,3 +13,7 @@ rallito_adeu:
 rallito_saluda:
     path:     /saluda/{parametre1}
     defaults: { _controller: RallitoBundle:Rallito:saluda,parametre1:cacaaa }
+
+rallito_boot:
+    path:     /boot
+    defaults: { _controller: RallitoBundle:Rallito:boot }
