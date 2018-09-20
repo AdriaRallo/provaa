@@ -1,0 +1,15 @@
+rallito_homepage:
+    path:     /
+    defaults: { _controller: RallitoBundle:Default:index }
+    
+rallito_hello:
+    path:     /hello
+    defaults: { _controller: RallitoBundle:Default:hello }
+    
+rallito_adeu:
+    path:     /adeu
+    defaults: { _controller: RallitoBundle:Default:adeu }
+    
+rallito_saluda:
+    path:     /saluda/{parametre1}
+    defaults: { _controller: RallitoBundle:Rallito:saluda,parametre1:cacaaa }

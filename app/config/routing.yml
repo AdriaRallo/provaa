@@ -1,3 +1,7 @@
+rallito:
+    resource: "@RallitoBundle/Resources/config/routing.yml"
+    prefix:   /rallito
+
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation
